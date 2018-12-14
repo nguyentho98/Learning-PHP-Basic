@@ -1,0 +1,10 @@
+<?php 
+	$n=10;
+	$tong=0;
+	$giaithua=1;
+	for ($i = 1; $i < $n; $i++) {
+		$giaithua*=$i;
+		$tong+=$i/$giaithua;
+	}
+	echo $tong;
+ ?>
