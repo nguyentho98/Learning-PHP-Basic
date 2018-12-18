@@ -3,7 +3,6 @@
  	if (isset($_SESSION['info'])) {
  		$data_arr=$_SESSION['info'];
  	}
- 	
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,6 +56,7 @@
 				<td>
 					<a class="btn btn-success" href="detail.php?msv=<?php echo $value['msv'] ?>" role="button">Xem TT</a>
 					<a class="btn btn-danger" href="xoa.php?msv=<?php echo $value['msv'] ?>" role="button">Xóa TT</a>
+					<a class="btn btn-success" href="edit.php?msv=<?php echo $value['msv'] ?>" role="button">Sửa TT</a>
 				</td>
 			 </tr>
 			<?php
